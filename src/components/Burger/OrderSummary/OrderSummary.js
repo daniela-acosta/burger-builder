@@ -7,9 +7,9 @@ class OrderSummary extends Component {
   //This doesn't need to be a class component. We are using a class component just to 
   //use componentDidUpdate in order to debug.
 
-  componentDidUpdate() {
-    console.log("[OrderSummary] component did update");
-  }
+  // componentDidUpdate() {
+  //   console.log("[OrderSummary] component did update");
+  // }
 
   render() {
     const ingredientSummary = Object.keys(this.props.ingredients).map(
